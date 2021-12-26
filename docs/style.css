@@ -1,0 +1,75 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+body {
+  font-size: 15px;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+  width: 356px;
+  height: 750px;
+  margin: auto;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.main-img {
+  width: 100%;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+  padding: 0 1em 0 1em;
+}
+
+h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.main-text p {
+  text-align: center;
+  padding: 0 5em 0 5em;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+}
+
+.data-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.category {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.7rem;
+}
+
+.data {
+  line-height: 0.4;
+}
+
+#image {
+  display: none;
+}
+
+/* media query */
+
+@media (min-width: 650px) {
+  .main-img {
+    display: none;
+  }
+  #image {
+    display: block;
+    width: 100%;
+  }
+}
