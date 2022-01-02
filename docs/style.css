@@ -79,4 +79,16 @@ h2 {
 
 /* media query */
 
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+  }
 
+  #image {
+    display:block;
+  }
+
+  .main-img {
+    display: none;
+  }
+}
