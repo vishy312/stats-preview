@@ -60,6 +60,7 @@ h2 {
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
   font-weight: 700;
+  font-size: 1.4rem;
 }
 
 .category {
@@ -81,6 +82,9 @@ h2 {
 
 @media (min-width: 768px) {
   .container {
+    width: 1080px;
+    height: 446px;
+    margin-top: 100px;
     display: flex;
   }
 
@@ -90,5 +94,21 @@ h2 {
 
   .main-img {
     display: none;
+  }
+
+  .purple-overlay {
+    height: 446px;
+    width: 540px;
+    left: 540px;
+  }
+
+  .data-main {
+    flex-direction: row;
+    margin-top: 55px;
+    justify-content: space-evenly;
+  }
+
+  .header {
+    padding: 2.5em;
   }
 }
